@@ -1,0 +1,10 @@
+<resources>
+    <color name="brand">#FF5A1F</color>
+    <color name="brand_dark">#E74612</color>
+    <color name="bg">#F7F7F7</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text">#171717</color>
+    <color name="muted">#777777</color>
+    <color name="veg">#16A34A</color>
+    <color name="nonveg">#DC2626</color>
+</resources>
