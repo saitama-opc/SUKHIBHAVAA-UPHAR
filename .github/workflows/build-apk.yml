@@ -20,7 +20,8 @@ jobs:
 
       - name: Install Android SDK
         run: |
-          yes | sdkmanager --licenses || true
+         export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
+         yes | sdkmanager --licenses || true
           sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
       - name: Build APK
